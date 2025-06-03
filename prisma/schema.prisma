@@ -18,4 +18,5 @@ model Todo {
   title String?
   isCompleted Boolean @default(false)
   createdAt DateTime @default(now())
+  deadline    DateTime?
 }
